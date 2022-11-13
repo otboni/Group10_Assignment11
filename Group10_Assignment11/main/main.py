@@ -19,8 +19,10 @@ parsed_json = json.loads(json_string) # Now we have a python dictionary
 for states in parsed_json['data']:    #Get the value associated with the parsed_json{'data']
     print (states)
 
-print(parsed_json['data'][3]['code'])
-print(parsed_json['data'][3]['name'])
+print(('ID:')+(parsed_json['data'][3]['id']))
+print(('Code:')+(parsed_json['data'][3]['code']))
+print(('Name:')+(parsed_json['data'][3]['name']))
+print(parsed_json['data'][3])
 #for ID in parsed_json['id']:
     #print(ID('id'))
     
