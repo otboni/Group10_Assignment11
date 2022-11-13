@@ -1,8 +1,14 @@
 '''
-Created on Nov 3, 2022
-
-@author: marquibm
+Name: Aaron Paulson, Ben Marquis
+email: Paulsoar@mail.uc.edu, marquibm@mail.uc.edu
+Assignment: Group 10 Assignment 11
+Course: IS 4010
+Semester/Year: Fall 2022
+Brief Description: For this assignment we grabbed an API from the Department of Agriculture and parsed the data into a dictionary and printed our results
+Citations:http://www.ers.usda.gov/developer/
+Anything else that's relevant: 
 '''
+#Main.py
 import json
 import requests
 response = requests.get('https://api.ers.usda.gov/data/arms/state?api_key=CRt5lRKn8IPXTH1QzYhcNIFFjxeBmrZQ79jOFp6G')
